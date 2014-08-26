@@ -2,7 +2,7 @@
 Django LogTailer
 =================================
 
-:Version: 0.3
+:Version: 0.3.1
 :Source: http://github.com/fireantology/django-logtailer/
 --
 
@@ -35,3 +35,8 @@ SETTING OPTIONS AVAILABLE
 ========
 
  - LOGTAILER_HISTORY_LINES , Number of line to get back from the file on first read, default value is 0
+
+CHANGELOG
+========
+
+- updated urls.py to work on django >=1.6. 'django.conf.urls.defaults' no longer used.  
